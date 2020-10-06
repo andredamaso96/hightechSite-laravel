@@ -81,7 +81,25 @@
 						<li><a href="{{URL::to('/dashboard')}}"><i class="icon-bar-chart"></i><span class="hidden-tablet"> Dashboard</span></a></li>			
 						<li><a href="{{URL::to('/all-oportunity')}}"><i class="icon-list-alt"></i><span class="hidden-tablet"> Candidaturas</span></a></li>
 						<li><a href="{{URL::to('/add-oportunity')}}"><i class="icon-plus"></i><span class="hidden-tablet"> Adicionar Candidatura</span></a></li>
+						<li>
+							<a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-tablet"> Compressors</span></a>
+							<ul>
+								<li><a class="submenu" href="{{URL::to('/all-category')}}"><i class="icon-file-alt"></i><span class="hidden-tablet"> Categorias</span></a></li>
+								<li><a class="submenu" href="{{URL::to('/all-subcategory')}}"><i class="icon-file-alt"></i><span class="hidden-tablet"> Sub-categorias</span></a></li>
+								<li><a class="submenu" href="{{URL::to('/all-product')}}"><i class="icon-file-alt"></i><span class="hidden-tablet"> Produtos</span></a></li>
+								<li><a class="submenu" href="{{URL::to('/all-specification')}}"><i class="icon-file-alt"></i><span class="hidden-tablet"> Especificações/Catálogos</span></a></li>
+							</ul>	
+						</li>
+						<li>
+							<a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-tablet"> Technologies</span></a>
+							<ul>
+							<li><a class="submenu" href="{{URL::to('/all-project')}}"><i class="icon-file-alt"></i><span class="hidden-tablet"> Obras</span></a></li>
+								<!-- <li><a class="submenu" href="{{URL::to('/add-category')}}"><i class="icon-file-alt"></i><span class="hidden-tablet"> Adicionar Categoria</span></a></li>
+								<li><a class="submenu" href="{{URL::to('/all-category')}}"><i class="icon-file-alt"></i><span class="hidden-tablet"> Categorias</span></a></li> -->
+							</ul>	
+						</li>
 						
+					
 					</ul>
 				</div>
 			</div>

@@ -7,7 +7,7 @@
 
         <center>
           <h2 class="mb-3">Remoção de fibrocimento</h2>
-          <h4>Fabricamos cabines de descontaminação com certificação CE e removemos fibrocimento à mais de 9 anos!</h4>
+          <h4>Fabricamos cabines de descontaminação com certificação CE e removemos fibrocimento há mais de 9 anos!</h4>
           <div class="project">
             <!-- <div class="img rounded mb-4" style="background-image: url(images/project-1.jpg);"></div> -->
             
@@ -60,7 +60,7 @@
 					</div>
 					<div class="col-md-4 wrap-about align-items-stretch d-flex">
 
-                        <img src="{{asset('frontend/images/telha.jpg')}}" width="100%">
+                        <img src="{{asset('frontend/images/telha.jpg')}}" width="100%" class="img-fluid">
 					</div>
 					
 				</div>
@@ -75,7 +75,7 @@
 				<div class="row d-flex align-items-stretch">
           <div class="col-md-4 wrap-about align-items-stretch d-flex">
          
-            <img src="{{asset('frontend/images/pulmao.jpg')}}" width="100%">
+            <img src="{{asset('frontend/images/pulmao.jpg')}}" width="100%" class="img-fluid">
 					</div>
           <div class="col-md-8 wrap-about ftco-animate py-md-5 pl-md-5">
             <div class="heading-section mb-4">
@@ -120,7 +120,7 @@
             
 					</div>
 					<div class="col-md-6 wrap-about align-items-stretch d-flex">
-            <img src="{{asset('frontend/images/portugal.jpg')}}" width="100%">
+            <img src="{{asset('frontend/images/portugal.jpg')}}" width="100%" class="img-fluid">
 
 					</div>
 					

@@ -19,10 +19,10 @@
 				<div class="row">
           <div class="col-md-3 col-lg-6 ftco-animate">
             <div class="blog-entry">
-              <a href="http://www.hightech-airer.pt/compressors/" class="block-20 d-flex align-items-end" style="background-image: url({{asset('frontend/images/banner-comprag.png')}});">
+              <a href="{{URL::to('/compressors')}}" class="block-20 d-flex align-items-end" style="background-image: url({{asset('frontend/images/banner-comprag.png')}});">
               </a>
               <div class="text p-4">
-                <h3 class="heading"><a href="http://www.hightech-airer.pt/compressors/">Equipamentos e acessórios de ar comprimido e vácuo</a></h3>
+                <h3 class="heading"><a href="{{URL::to('/compressors')}}">Equipamentos e acessórios de ar comprimido e vácuo</a></h3>
 
               </div>
             </div>
@@ -53,10 +53,10 @@
 
           <div class="col-md-3 col-lg-6 ftco-animate">
             <div class="blog-entry">
-              <a href="http://www.hightechmedical.pt/cadeiras-rodas-eletricas-hightech/" class="block-20 d-flex align-items-end" style="background-image: url({{asset('frontend/images/cadeira.jpg')}});">
+              <a href="{{URL::to('/medical/cadeira-de-rodas')}}" class="block-20 d-flex align-items-end" style="background-image: url({{asset('frontend/images/cadeira.jpg')}});">
               </a>
               <div class="text p-4">
-                <h3 class="heading"><a href="http://www.hightechmedical.pt/cadeiras-rodas-eletricas-hightech/">Cadeiras de rodas para mobilidade reduzida</a></h3>
+                <h3 class="heading"><a href="{{URL::to('/medical/cadeira-de-rodas')}}">Cadeiras de rodas para mobilidade reduzida</a></h3>
 
               </div>
             </div>

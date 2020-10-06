@@ -28,7 +28,7 @@ class sendJob extends Mailable
      */
     public function build()
     {
-        return $this->from('andredamaso96@gmail.com')->subject('CANDIDATURA')
+        return $this->from('hightech_site@outlook.com')->subject('CANDIDATURA')
         ->view('pages.jobForm')
         ->with('data', $this->data)
         ->attach($this->data['file']->getRealPath(), array(

@@ -36,7 +36,7 @@
   
   
 			<div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-			  <a href="http://www.hightech-airer.pt/compressors/">
+			  <a href="{{URL::to('/compressors')}}">
 			  <div class="icon-box icon-box-blue">
 				<!-- <div class="icon"><i class="bx bx-world"></i></div>
 				<h4 class="title"><a href="">Nemo Enim</a></h4> -->
@@ -48,7 +48,7 @@
 			</div>
   
 			<div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up">
-			  <a href="http://www.hightech-airer.pt/technologies/">
+			  <a href="{{URL::to('/technologies')}}">
 			  <div class="icon-box icon-box-pink">
 				<img src="{{asset('frontend/images/technologies.png')}}" class="img-fluid" alt="">
 				<!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
@@ -61,7 +61,7 @@
   
   
 			<div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-			  <a href="http://www.hightechmedical.pt/">
+			  <a href="{{URL::to('/medical')}}">
 			  <div class="icon-box icon-box-green">
 				
 				<!-- <div class="icon"><i class="bx bx-tachometer"></i></div>
@@ -183,13 +183,15 @@
 								  secadores, filtros e acessórios, com a garantia de qualidade destas marcas.</p>
 						  </div>
 						  <div class="tab-pane container p-0 fade" id="services-2">
-						  	<div class="img" style="background-image: url({{asset('frontend/images/service2.png')}});"></div>
+							  <!-- <div class="img" style="background-image: url({{asset('frontend/images/service2.png')}});"></div> -->
+							  <img src="{{asset('frontend/images/service2.png')}}" class="img-fluid" alt="">
 						  	<h3><a href="#">Consultoria Planeamento e execução de linhas de ar comprimido e vácuo</a></h3>
 						  	<p>Com vários anos de experiência e a AIGNEP como fornecedor, todas as linhas de ar comprimido e vácuo, sejam elas de natureza doméstica ou empresarial, ficarão em boas mãos. 
 								  A AIGNEP comercializa dos melhores acessórios com uma qualidade imbatível, para que não existam fugas ou defeitos.</p>
 						  </div>
 						  <div class="tab-pane container p-0 fade" id="services-3">
-						  	<div class="img" style="background-image: url({{asset('frontend/images/service3.jpg')}});"></div>
+							  <!-- <div class="img" style="background-image: url({{asset('frontend/images/service3.jpg')}});"></div> -->
+							  <img src="{{asset('frontend/images/service3.jpg')}}" class="img-fluid" alt="">
 						  	<h3><a href="#">Energias Renováveis
 								Projeto e instalação de sistemas solares
 								térmicos e fotovoltaicos</a></h3>
@@ -197,14 +199,16 @@
 								  planeamos e executamos projetos adequados ao seu local. As instalações da Hightech já são totalmente amigas do ambiente, o que espera?</p>
 						  </div>
 						  <div class="tab-pane container p-0 fade" id="services-4">
-						  	<div class="img" style="background-image: url({{asset('frontend/images/service4.jpg')}});"></div>
+							  <!-- <div class="img" style="background-image: url({{asset('frontend/images/service4.jpg')}});"></div> -->
+							  <img src="{{asset('frontend/images/service4.jpg')}}" class="img-fluid" alt="">	  
 						  	<h3><a href="#">Remoção/Aplicação de coberturas de fibrocimento/cabine de descontaminação</a></h3>
 						  	<p>A Hightech é o seu parceiro de eleição neste sector. Removemos todo o tipo de coberturas em fibrocimento aplicando novas utilizando materiais de alta qualidade, 
 								  sempre respeitando as normativas em vigor. Construímos cabines de descontaminação de amianto. Não adie a remoção.</p>
 						  </div>
 						  <div class="tab-pane container p-0 fade" id="services-5">
-						  	<div class="img" style="background-image: url({{asset('frontend/images/htmarktpage.png')}});"></div>
-						  	<h3><a href="https://www.htmarkt.hightech-airer.pt/">HT-MARKT</a></h3>
+						  	<!-- <div class="img" style="background-image: url({{asset('frontend/images/htmarktpage.png')}});"></div> -->
+							  <img src="{{asset('frontend/images/htmarktpage.png')}}" class="img-fluid" alt="">	  
+							  <h3><a href="https://www.htmarkt.hightech-airer.pt/">HT-MARKT</a></h3>
 						  	<p>Face à evolução do mercado e tecnologias, criámos a nossa loja online,
 							  de modo a facilitar a consulta ao nosso cliente</p>
 						  </div>

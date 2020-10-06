@@ -30,7 +30,7 @@ class SendMail extends Mailable
      */
     public function build()
     {
-        return $this->from('andredamaso96@gmail.com')->subject('Novo contacto de email')
+        return $this->from('hightech_site@outlook.com')->subject('Novo contacto de email')
         ->view('pages.contactForm')->with('data', $this->data);
     }
 

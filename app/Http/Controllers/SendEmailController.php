@@ -31,7 +31,7 @@ class SendEmailController extends Controller
             'message' => $request->message
         );
 
-        Mail::to('andredamaso96@gmail.com')->send(new SendMail($data));
+        Mail::to('hightech.recrutamento@gmail.com')->send(new SendMail($data));
         //return view('pages.check');
         return back()->with('success', 'Obrigado ' .$name);
     }
@@ -56,7 +56,7 @@ class SendEmailController extends Controller
             'file' => $request->file('file')
         );
 
-        Mail::to('andredamaso96@gmail.com')->send(new SendJob($data));
+        Mail::to('hightech.recrutamento@gmail.com')->send(new SendJob($data));
         //return view('pages.check');
         return back()->with('success', 'Obrigado ' . $first_name);
     }

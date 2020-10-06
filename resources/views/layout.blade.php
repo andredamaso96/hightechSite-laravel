@@ -5,6 +5,7 @@
     <title>@yield('PageTitle') Hightech-AIRER – Soluções Industriais à sua medida</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="{{asset('frontend/images/icon.png')}}">
     
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
 
@@ -75,11 +76,11 @@
 			    			<a href="https://www.linkedin.com/in/hightech-airer-7697191b5/"><i class="ion-logo-linkedin"></i><span class="sr-only">Googleplus</span></a>
 			    		</p>
 			    	</div>
-			    	<div class="col-lg-8 linksite">
-			    		<a href="http://www.hightech-airer.pt/compressors/" style="color: blue;">Hightech Compressors</a>
-			    		<a href="http://www.hightech-airer.pt/technologies/" style="color: red;">Hightech Technologies</a>
-			    		<a href="http://www.hightechmedical.pt/" style="color: green;">Hightech Medical</a>
-              <a href="https://www.htmarkt.hightech-airer.pt/" style="color: #a71527;"><i class="fa fa-shopping-cart"></i>	HT-Markt</a></li>
+			    	<div class="col-lg-8 linksite" style="text-align: right;">
+			    		<a href="{{URL::to('/compressors')}}" style="color: blue;">Hightech Compressors</a>
+			    		<a href="{{URL::to('/technologies')}}" style="color: red;">Hightech Technologies</a>
+			    		<a href="{{URL::to('/medical')}}" style="color: green;">Hightech Medical</a>
+              <a href="https://www.htmarkt.hightech-airer.pt/" style="color: #a71527;" target="_blank" rel="noopener"><i class="fa fa-shopping-cart"></i>	HT-Markt</a></li>
               
 			    	</div>
 			    </div>
@@ -138,10 +139,10 @@
               <div class="col-lg-3 col-md-6 footer-links">
                 <h4>Serviços</h4>
                 <ul>
-                  <li><i class="bx bx-chevron-right"></i> <a href="http://www.hightech-airer.pt/compressors/">Hightech Compressors</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="http://www.hightech-airer.pt/technologies/">Hightech Technologies</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="http://www.hightechmedical.pt/">Hightech Medical</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="https://www.htmarkt.hightech-airer.pt/">HT-Markt</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="{{URL::to('/compressors')}}">Hightech Compressors</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="{{URL::to('/technologies')}}">Hightech Technologies</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="{{URL::to('/medical')}}">Hightech Medical</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="https://www.htmarkt.hightech-airer.pt/" target="_blank" rel="noopener">HT-Markt</a></li>
                 </ul>
               </div>
     

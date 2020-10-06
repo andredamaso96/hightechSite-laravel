@@ -28,17 +28,17 @@
 			
 			<div class="row-fluid" style="margin-top: 150px;">	
 
-				<a href="{{URL::to('/')}}" class="quick-button metro yellow span2">
+				<a href="{{URL::to('/')}}" class="quick-button metro yellow span2" target="_blank" rel="noopener">
 					<i class="icon-globe"></i>
 					<p>Visitar site</p>
 					<!-- <span class="badge">237</span> -->
 				</a>
-				<a class="quick-button metro red span2">
+				<a href="https://www.htmarkt.hightech-airer.pt/" class="quick-button metro red span2" target="_blank" rel="noopener">
 					<i class="icon-shopping-cart"></i>
 					<p>Loja online</p>
 					<!-- <span class="badge">46</span> -->
 				</a>
-				<a class="quick-button metro blue span2">
+				<a href="https://www.htmarkt.hightech-airer.pt/wp-admin/edit.php?post_type=shop_order" class="quick-button metro blue span2" target="_blank" rel="noopener">
 					<i class="icon-barcode"></i>
 					<p>Encomendas</p>
 				</a>
